@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+* {
+   box-sizing: border-box;
+   margin: 0%;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --color1:  #FF2978;
+    --color2: #180F4A;
+}
+
+.navbar {
+    height: 100px;
+   /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+.logo {
+    flex: 20%;
+   /* border: 1px solid black; */
+    margin-left: 10%;
+
+}
+
+.logo h1 {
+    text-align: center;
+    font-size: 27px;
+    color: #180F4A;
+    font-family: "Lobster", sans-serif;
+}
+
+.menu {
+    flex: 80%;
+   /* border: 1px solid black; */
+    text-align: right;
+    margin-right: 10%;
+    font-size: 20px;
+}
+
+.menu a {
+    padding: 20px;
+    text-decoration: none;
+    color: #180F4A ;
+
+}
+
+.menu a:hover {
+    color: #FF2978;
+    border-top: 5px solid #180F4A;
+}
+
+#botao {
+    background-color: #180F4A;
+    padding: 10px 15px;
+    color: aliceblue;
+    border-radius: 5px;
+    margin-left: 7%;
+}
+
+#botao:hover {
+    background-color: #FF2978;
+    border: none;
+}
+
+.header {
+    /*background-color: cadetblue;*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.headline {
+    flex: 40%;
+   /* border: 1px solid black;*/
+    text-align: center;
+    margin-left: 10%;
+}
+
+.headline h2 {
+    padding: 0;
+    margin: 0%;
+    font-size: 20px;
+    
+    
+}
+
+.headline p {
+    text-align: center;
+    color: rgb(97, 97, 97);
+}
+
+.cb {
+    display: inline-block;
+    background-color: #FF2978;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 5%;
+    color: aliceblue;
+
+}
+
+.cb:hover {
+    background-color: #180F4A;
+}
+
+.imghl {
+    flex: 40%;
+    /*border: 1px solid rgb(163, 7, 7);*/
+    margin-right: 10%;
+    width: 90%;
+}
+
+section {
+    margin-top: 80px;
+    text-align: center;
+    display: inline-block;
+    
+}
+
+section h2 {
+    text-align: center;
+    font-size: 34px;
+    font-family: "Lobster", sans-serif;
+    
+    
+}
+
+.servicos {
+    margin-top: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+.card {
+    display: inline-block;
+    border:  1px solid #FF2978;
+    border-radius: 5px;
+    width: 30%;
+    margin: 1%;
+    padding: 20px;
+}
+
+.card h3 {
+    padding: 10px;
+}
+
+
+footer {
+    background-image: linear-gradient(180deg, #180F4A, #25196b, #553fd4);
+    height: 200px;
+    margin-top: 80px;
+    text-align: center;
+    color: aliceblue;
+    border-top: 5px solid #FF2978;
+    margin: 0%;
+}
+
+footer h1 {
+    padding-top: 30px;
+    font-family: "Lobster", sans-serif;
+    padding-bottom: 20px;
+}
+
+
+
+
+

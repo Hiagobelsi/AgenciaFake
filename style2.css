@@ -1,0 +1,42 @@
+@media screen and (max-width: 987px){
+    .menu {
+        display: none;
+    }
+
+    .logo {
+        margin: 0%;
+    }
+
+    .header {
+        flex: 100%;
+
+    }
+
+    .headline {
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .headline p {
+        text-align: center;
+    }
+
+    .imghl {
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .card {
+        width: 90%;
+        
+        
+    }
+
+    footer {
+        margin-top: 50px;
+    }
+
+
+}
